@@ -14,9 +14,9 @@ header {
 }
 
 ul {
-    float: right;
+    float: left;
     list-style-type: none;
-    margin-top: 25px;
+    margin-top: 65px;
 }
 
 ul li {
@@ -25,67 +25,70 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: black;
-    padding: 5px 20px;
+    color: white;
+    padding: 20px 30px;
     border: 1px solid transparent;
     transition: 0.6s ease;
 }
 ul li a:hover {
-    background-color: palevioletred;
+    background-color: orangered;
     color: white;
 }
 
 ul li.active a{
-    background-color: palevioletred;
+    background-color: orangered;
     color: white;
 }
 
 .logo img {
-    float: left;
-    width: 100px;
+    float: right;
+    width: 200px;
     height: auto;
 }
+
+
 
 .main {
     max-width: 1920px;
     margin: auto;
 }
 
-.title {
+.content {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 35%;
     transform: translate(-50%,-50%)
 }
 
-.title h1 {
-    color: white;
-    font-size: 70px;
+.content h1 {
+    
 }
 
 .button {
     position: absolute;
-    top: 62%;
-    left: 50%;
-    transform: translate(-50%,-50%)
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 40px;
 
 }
 
 .btn {
-    border: 1px solid black;
+    border: 1px solid orangered;
     padding: 10px 30px;
     color: white;
     text-decoration: none;
 }
 
 .btn:hover {
-    background-color: palevioletred;
+    background-color: orangered;
     color: white;
     transition: 0.6s ease;
 }
 
 @media (max-width: 620px){
     .button {
-        position: relative;
+        left:50%;
     }
 }
