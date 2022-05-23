@@ -4,30 +4,206 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sample</title>
+    <title>Sample</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
-    <header>
-        <div class="main">
-            <div class="logo">
-                <img src="logo.png" alt="logo">
+    <div class="container">
+        <div class="row" id="home">
+            <div class="col-5" id="logo">
+                <img src="logo.png" alt="logo" style="width: 200px; height: auto;">
             </div>
-            <ul>
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
+            <div class="col-7" id="head">
+                <span class="title">Art Gallery</span>
+            </div>
         </div>
-        <div class="title">
-            <h1> TOURISM SAMPLE</h1>
+        <div class="row" id="navigation">
+            <nav class="navbar navbar-expand-lg navbar-light text-right">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-content">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto" style="font-size: 24px;">
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" href="#home">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" href="#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" href="#collections">Collections</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" href="#contact">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <button type="button" class="nav-link1 p-2" href="#upcoming" data-bs-toggle="modal" data-bs-target="#invite">Upcoming Exhibition</button>
+                      </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-        <div class="button">
-            <a href="#" class="btn">Watch Video</a>
-            <a href="#" class="btn">Learn More</a>     
+        <div class="row mb-5" id="scroll">
+            <div id="carousel-controls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="scroll.jpg" class="d-block w-100" alt="image">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="scroll1.jpg" class="d-block w-100" alt="image">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="scroll2.jpg" class="d-block w-100" alt="image">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="scroll3.jpg" class="d-block w-100" alt="image">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-controls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-controls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </div>
-    </header>
+        <div class="row mt-5 mb-5" id="about">
+            <div class="col-12 mt-5">
+                <span class="atitle"><b>About Us</b></span>
+            </div>
+            <div class="col-md-6 lg-10 sm-12">
+                <img src="image.jpg" class="d-block w-100" alt="image">
+            </div>
+            <div class="col-md-6 lg-2 sm-12">
+                <p style="text-align: left;">
+                    An art gallery is a room or a building in which visual art is displayed. In Western cultures from the mid-15th Century, a gallery was any long, narrow covered passage along a wall, first used in the sense of a place for art in the 1590s.[1] The Long gallery in Elizabethan and Jacobean houses served many purposes including the display of art. Historically, art is displayed as evidence of status and wealth, and for religious art as objects of ritual or the depiction of narratives. The first galleries were in the palaces of the aristocracy, or in churches. As art collections grew, buildings became dedicated to art, becoming the first art museums.
+                    <br>
+    
+                    Among the modern reasons art may be displayed are aesthetic enjoyment, education, historic preservation, or for marketing purposes. The term is used to refer to establishments with distinct social and economic functions, both public and private. Institutions that preserve a permanent collection may be called either "gallery of art" or "museum of art". If the latter, the rooms where art is displayed within the museum building are called galleries. Art galleries that do not maintain a collection are either commercial enterprises for the sale of artworks, or similar spaces operated by art cooperatives or non-profit organizations. As part of the art world, art galleries play an important role in maintaining the network of connections between artists, collectors, and art experts that define fine art.
+                </p>
+            </div>
+            <div class="col">
+                <p>
+                    The terms 'art museum' and 'art gallery' may be used interchangeably as reflected in the names of institutions around the world, some of which are called galleries (e.g. the National Gallery and Neue Nationalgalerie), and some of which are called museums (e.g. the Museum of Modern Art and National Museum of Western Art). However, establishments that display art for other purposes, but serve no museum functions, are only called art galleries.
+                    <br>
+    
+                    The distinctive function of a museum is the preservation of artifacts with cultural, historical, and aesthetic value by maintaining a collection of valued objects. Art museums also function as galleries that display works from the museum's own collection or on loan from the collections of other museums. Museums might be in public or private ownership and may be accessible to all or have restrictions on access. Although primarily concerned with visual art, art museums are often used as a venue for other cultural exchanges and artistic activities, such as performance arts, music concerts, or poetry readings.
+                </p>
+            </div> 
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 mt-5" id="collections">
+                <span class="ctitle"><b>Collections</b></span>
+            </div>
+            <div class="card-group">
+                <div class="card col-md-4 sm-12 m-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Gandhara">
+                    <img src="gc.jpg" class="card-img-top1" alt="Sculpture">
+                    <div class="card-body">
+                      <h5 class="card-title">Gandhara</h5>
+                    </div>
+                </div>
+                <div class="card col-md-3 sm-12 m-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Medival Indian Sculpture">
+                    <img src="mc.jpg" class="card-img-top1" alt="Sculpture">
+                    <div class="card-body">
+                      <h5 class="card-title">Medival Indian Sculpture</h5>
+                    </div>
+                </div>
+                <div class="card col-md-3 sm-12 m-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Ancient Indian Sculpture">
+                    <img src="ac.jpg" class="card-img-top1" alt="Sculpture">
+                    <div class="card-body">
+                      <h5 class="card-title">Ancient Indian Sculpture</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group">
+                
+                <div class="card col-md-4 sm-12 m-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Contemporary Indian Painintg">
+                    <img src="cc.jpg" class="card-img-top" alt="Painting">
+                    <div class="card-body">
+                      <h5 class="card-title">Contemporary Indian Painting</h5>
+                    </div>
+                </div>
+                <div class="card col-md-3 sm-12 m-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Miniature Painintg">
+                    <img src="minic.jpg" class="card-img-top" alt="Painintg">
+                    <div class="card-body">
+                      <h5 class="card-title">Miniature Painting</h5>
+                    </div>
+                </div>
+                <div class="card col-md-4 sm-12 m-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Textile">
+                    <img src="textilec.jpg" class="card-img-top" alt="Textile">
+                    <div class="card-body">
+                      <h5 class="card-title">Textile</h5>
+                    </div>
+                </div>
+                
+                <div class="card col-md-4 sm-12 m-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Decorative art" style="width: 18rem;">
+                    <img src="dc.jpg" class="card-img-top" alt="Sculpture">
+                    <div class="card-body">
+                      <h5 class="card-title">Decorative Art</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid row my-5 contact" id="contact">
+        <div class="col-12 mt-5">
+            <span class="contitle"><b>Contact Us</b></span>
+        </div>
+        <div class="details row">
+            <p class="col-md-5 sm-12">
+                <ion-icon name="location-outline"></ion-icon>
+                 <b><i>Art Gallery
+                    <br>complex no.12,
+                    <br>abc road, xyz City
+                    <br>India
+                    <br>174893</i></b>
+                    <br>
+                    <br> <ion-icon name="call-outline"></ion-icon>
+                    8956473748, 9483647290
+                    <br>
+                    <br><ion-icon name="mail-open-outline"></ion-icon>
+                    <a href="">artgallery.xyz.com</a>
+                    <br>
+                    <br>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+            </p>
+            <form class="feedback col-md-5 sm-12 mb-5">
+                <label for="name">Full Name</label> <br>
+                <input class="name w-75" id="name" type="text">   <br>
+                <label for="number">Contact Number</label>  <br>
+                <input class="number w-75" id="number" type="number"> <br>
+                <label for="email">email</label>  <br>
+                <input class="email w-75" id="email" type="email">  <br>
+                <label for="comment">comment</label> <br>
+                <textarea class="comment w-75" is="comment" row="10" col="70" placeholder="Your Feedback is presious for us."></textarea><br>
+                <button type="button" class="btn">Submit</button>
+            </form>
+      </div>
+    </div>
+    <a href="#home" class="btn-top">Back to Top</a>
+    <div class="modal fade" id="invite" tabindex="-1" aria-labelledby="exhibition" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="invitation">
+              <span class="heading">Art Exhibition</span>
+              <p>Depicting the changing realties in which we live.</p>
+              <br>
+              <span class="date"><b>28May-1June</b></span>
+              <br>
+              <span class="date"><b>10:00AM-8:00PM</b></span>
+              <br>
+              <span class="addr"><b>Art Gallery<br>abc road, xyz city<br>India</b></span>
+            </div>
+            
+      </div>
+    </div>
 </body>
 </html>

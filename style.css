@@ -1,89 +1,170 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Pacifico&family=Smooch&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Josefin Sans', sans-serif;
+    
 }
 
-header {
-    background-image: url('background.jpg');
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+body {
+    background-color: aliceblue;
 }
 
-ul {
-    float: left;
-    list-style-type: none;
-    margin-top: 65px;
+.title {
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Smooch', cursive;
+    font-size: 42px;
 }
 
-ul li {
-    display: inline-block;
+.navbar-nav li {
+    margin-left: 10px;
 }
 
-ul li a {
+.navbar-toggler {
+    margin-left: 90%;
+}
+
+.nav-link1 {
+    background-color: rgb(49, 49, 128);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
     text-decoration: none;
-    color: white;
-    padding: 20px 30px;
-    border: 1px solid transparent;
-    transition: 0.6s ease;
-}
-ul li a:hover {
-    background-color: orangered;
-    color: white;
 }
 
-
-.logo img {
-    float: right;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
+.atitle {
+    font-size: 36px;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
 }
 
-
-
-.main {
-    max-width: 1920px;
-    margin: auto;
+.ctitle {
+    font-size: 36px;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
 }
 
-.content {
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    transform: translate(-50%,-50%)
+.contact {
+    background-color: rgb(49, 49, 128);
+    color: aliceblue;
 }
 
+.contitle {
+    font-size: 36px;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    color: black;
+}
 
+.card-img-top1 {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
 
-.button {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50%,-50%);
-    color: white;
-    font-size: 40px;
+.card-img-top {
+    width: 100%;
+    height: 38vh;
+    object-fit: cover;
+}
 
+.details p {
+    padding: 30px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.details p a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.feedback {
+    margin: 5px;
+    padding: 30px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 .btn {
-    border: 1px solid orangered;
-    padding: 10px 30px;
-    color: white;
+    padding: 3px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.btn-top {
+    padding: 3px;
+    margin: 2px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(49, 49, 128);
+    color: aliceblue;
+    top: 2%;
+    text-align: center;
+    display: block;
     text-decoration: none;
 }
 
-.btn:hover {
-    background-color: orangered;
-    color: white;
-    transition: 0.6s ease;
+.modal-dialog {
+    background-image: url('modal.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;    
 }
 
-@media (max-width: 620px){
-    .button {
-        left:50%;
-    }
+.btn-close {
+    float: right;
 }
+
+.invitation {
+    top: 40%;
+    position: absolute;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-family: 'Grape Nuts', cursive;
+    justify-content: center;
+}
+
+.heading {
+    padding: 5px;
+    margin: 5px;
+    font-size: 54px;
+}
+
+.date {
+    font-size: 32px;
+}
+
+.time {
+    font-size: 24px;
+}
+
+.addr {
+    font-size: 20px;
+}
+
+@media (max-width: 580px){
+    .card {
+        width: 63%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
